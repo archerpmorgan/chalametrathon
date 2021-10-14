@@ -16,8 +16,10 @@ const App = () => {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Info} />
-          <Route path="/info" exact component={Info} />
-          <Route path="/memes" exact component={Memes} />
+          <Route path="/chalametrathon" exact component={Info} />
+          <Route path="/chalametrathon/Info" exact component={Info} />
+          <Route path="/Info" exact component={Info} />
+          <Route path="/Memes" exact component={Memes} />
         </Switch>
       </Router>
     </div>
