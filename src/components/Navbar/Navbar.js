@@ -30,28 +30,8 @@ function Navbar() {
                         </Link>
                     )
                 })}
-                <NavButton/>
             </ul>
         </nav>
-    );
-}
-
-
-function NavButton() {
-
-    const data = {
-        title: 'Sign up',
-        url: '#',
-        cName: 'nav-links-mobile'
-    }
-    
-    return (
-        <li>
-            <a className={data.cName} href={data.url}>
-            {data.title}
-            <i className={data.icon}></i>
-            </a>
-        </li>
     );
 }
 
